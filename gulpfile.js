@@ -2,7 +2,7 @@ const gulp = require('gulp')
 const rename = require('gulp-rename')
 const browserSync = require('browser-sync').create()
 const pug = require('gulp-pug')
-const sass = require('gulp-sass')
+const sass = require('node-sass')
 const babel = require('gulp-babel')
 const standard = require('gulp-standard')
 
